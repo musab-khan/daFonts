@@ -13,7 +13,6 @@ class FontsSpider(scrapy.Spider):
         'https://www.dafont.com/mtheme.php?id=6&fpp=200',
         'https://www.dafont.com/mtheme.php?id=7&fpp=200',
         'https://www.dafont.com/mtheme.php?id=8&fpp=200',
-         'https://www.dafont.com/bitmap.php?fpp=200'
     ]
 
     def parse(self, response):
