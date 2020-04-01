@@ -16,3 +16,8 @@ class FontprojectItem(scrapy.Item):
     font_download = scrapy.Field()
     font_main_category = scrapy.Field()
     font_sub_category = scrapy.Field()
+
+class authorsItem(scrapy.Item):
+    author_country = scrapy.Field()
+    author_name = scrapy.Field()
+    author_link = scrapy.Field()
